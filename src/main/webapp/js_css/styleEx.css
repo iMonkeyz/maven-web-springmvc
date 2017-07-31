@@ -1,0 +1,51 @@
+body{
+    font-size:12px;
+}
+#urlsTabContent table{
+    table-layout: fixed;
+    width: 100%;
+}
+#urlsTabContent table a{
+    cursor: pointer;
+}
+.btn-content{
+    width: 150px;
+}
+.pwd-content{
+    width: 100px;
+}
+/**copy css**/
+ol, ul {
+    list-style: none;
+}
+li {
+    list-style-type: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.mlist li {
+    float: left;
+    width: 400px;
+    height: 140px;
+    padding: 10px 0 10px 0px;
+}
+a > img {
+    width: 86px;
+    height: 122px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.clear{
+    clear:both;
+}
+.p{
+    width: 92px;
+    height: 128px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 2px;
+    border: 1px solid #DFDFDF;
+}
