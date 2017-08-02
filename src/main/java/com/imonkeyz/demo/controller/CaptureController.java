@@ -38,7 +38,7 @@ public class CaptureController {
                                @RequestParam(required = false,defaultValue = "1") String page,
                                @RequestParam(required = false,defaultValue = "0") int searchtype,
                                ModelMap model) {
-        if(searchword!=null&&!searchword.isEmpty()){
+        if(searchword!=null && !"".equals(searchword)){
             final Map<String, Object> map;
             try {
                 map = captureService.queryByName(searchword,page,searchtype);
